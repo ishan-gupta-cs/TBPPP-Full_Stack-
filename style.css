@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    color: #777;
+}
+
+
+.navbar{
+    /* position: fixed; */
+    width: 100%;
+    height: 5vh;
+}
+
+li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.photo_section{
+    background-image: url("img_girl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+
+.text{
+    
+}
+
+.about h1{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.about .caption{
+    text-align: center;
+    margin-top: 3vh;
+    font-style: italic;
+
+}
+
+.about p{
+    text-align: center;
+    margin-top: 3vh;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.about .person{
+    margin-top: 20px;
+}
+
+.about .person img{
+    margin-top: 40px;
+    /* display: inline-block; */
+    height: 300px;
+    width: 400px;
+    margin-left: 300px;
+}
+
+.about .material-symbols-outlined{
+    margin-left: 300px;
+}
+
+.about .desc{
+    text-align: center;
+    margin-left: 500px;
+    /* margin-right: 300px; */
+    /* margin-bottom: -300px; */
+}
